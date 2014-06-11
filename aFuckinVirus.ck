@@ -1,15 +1,13 @@
 //aFuckinVirus.ck
 
 SinOsc s => dac;
-
 SinOsc lfo => blackhole;
 
 5 => lfo.freq;
-
 1 => int i;
 
-      while (17::ms => now){
-
+      while (17::ms => now)
+      {
       if (i  > 0 && i < 1000)
         {
         ( lfo.last() * i ) + 440 => s.freq;
