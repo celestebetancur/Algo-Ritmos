@@ -1,4 +1,4 @@
-//aFuckinVirus
+//aFuckinVirus.ck
 
 SinOsc s => dac;
 SinOsc lfo => blackhole;
