@@ -1,14 +1,12 @@
 public class BPM
 {
-    dur duration[4];
-    //d for dotted
-    //t for triplet
+    dur duration[];
+
     static dur whole, dHalf, half, dQuarter, quarter, tQuarter, dEighth, eighth, tEighth, sixteenth, thirtysecond;
+    static dur pulse;
     
-    fun void tempo(float beat)  {
-        
-        //traditional notation
-        
+    fun void tTempo(float beat)  //traditional notation
+    {
         60.0/(beat) => float SPB; // seconds per beat
         SPB :: second => quarter;
         quarter*6 => dHalf;
@@ -23,10 +21,11 @@ public class BPM
         sixteenth*0.5 => thirtysecond;
         
         [whole, dHalf, half, dQuarter, quarter, tQuarter, dEighth, eighth, tEighth, sixteenth, thirtysecond] @=> duration;
-
-        // more time based notation
-        
-        quarter => dur pulse;
-        
-        }
+    }
+    fun dur tempo(float beat)   // more time based notation
+    {
+            60.0/(beat) => float SPB; // seconds per beat
+            SPB :: second => pulse;
+            return pulse;
+    }
 }
