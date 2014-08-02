@@ -1,7 +1,5 @@
 public class BPM
 {
-    dur duration[];
-
     static dur whole, dHalf, half, dQuarter, quarter, tQuarter, dEighth, eighth, tEighth, sixteenth, thirtysecond;
     static dur pulse;
     
@@ -19,8 +17,6 @@ public class BPM
         quarter*0.333 => tEighth;
         eighth*0.5 => sixteenth;
         sixteenth*0.5 => thirtysecond;
-        
-        [whole, dHalf, half, dQuarter, quarter, tQuarter, dEighth, eighth, tEighth, sixteenth, thirtysecond] @=> duration;
     }
     fun dur tempo(float beat)   // more time based notation
     {
