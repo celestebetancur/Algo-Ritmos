@@ -6,7 +6,7 @@ SqrOsc sqr => dac;
 Noise noiseH => HPF hpf => dac; 
 Noise noiseL => LPF lpf => dac;
 
-440 => sen.freq; // same note for all oscillator
+440 => sen.freq; // same note for all oscillators
 440 => saw.freq;
 440 => tri.freq;
 440 => sqr.freq;
