@@ -1,4 +1,4 @@
-public class DLooper // uses BPM.ck class
+public class DLooper
 { 
     Gain master => dac; //Gain 
 
@@ -7,6 +7,7 @@ public class DLooper // uses BPM.ck class
     SndBuf snaredrum => master;
     SndBuf hihatcymbal => NRev rev => master;   
     
+    .8 => master.gain;
     .065 => rev.mix; 
     
     //.wav files
@@ -42,31 +43,31 @@ fun void drum (int beat, int div, int k[], int s[], int hh[])
             } 
             if( div == 1 )
             {
-                tempo1.whole => now;
+                tempo.whole => now;
             }
             if( div == 2 )
             {
-                tempo1.half => now;
+                tempo.half => now;
             }
             if( div == 3 )
             {
-                tempo1.tEighth => now;
+                tempo.tEighth => now;
             }
             if( div == 4 )
             {
-                tempo1.quarter => now;
+                tempo.quarter => now;
             }
             if( div == 8 )
             {
-                tempo1.eighth => now;
+                tempo.eighth => now;
             }
             if( div == 16 )
             {
-                tempo1.sixteenth => now;
+                tempo.sixteenth => now;
             }
             if( div == 32 )
             {
-                tempo1.thirtysecond => now;
+                tempo.thirtysecond => now;
             }
             else
             {
