@@ -4,7 +4,8 @@ SinOsc keyboard[3];
 
 for (0 => int i; i < keyboard.cap(); i++)
 {
-keyboard[i] => dac;
+keyboard[i] => Gain master => dac;
+0.6 => master.gain;
 }
 
 [ [60,64,67],[62,67,71],[60,64,69],[60,65,69] ] @=> int harmony[][];
