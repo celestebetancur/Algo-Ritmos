@@ -143,122 +143,122 @@ public class Looper
             
             if(note == "A" || note == "a" || note == "la" || note == "La")
             {
-                [61,69,64,68,81,73,74,93,83,80,85,88] @=> int chords[];
+                [61,69,64,68] @=> int chords[];
                 return chords;
             }  
             if(note == "A#" || note == "a#" || note == "la#" || note == "La#" || note == "Bb" || note == "bb" || note == "sib" || note == "Sib")
             {
-                [62,70,65,69,82,74,75,94,84,77,86,89] @=> int chords[];
+                [62,70,65,69] @=> int chords[];
                 return chords;
             }   
             if(note == "B" || note == "b" || note == "si" || note == "Si")
             {
-                [63,71,66,70,83,75,76,95,85,78,87,90] @=> int chords[];
+                [63,71,66,70] @=> int chords[];
                 return chords;
             }   
             if(note == "C" || note == "c" || note == "do" || note == "Do")
             {
-                [60,67,64,71,74,72,76,79,81,96,86,93] @=> int chords[];
+                [60,67,64,71] @=> int chords[];
                 return chords;
             } 
             if(note == "C#" || note == "c#" || note == "do#" || note == "Do#" || note == "Db" || note == "db" || note == "reb" || note == "Reb")
             {
-                [61,68,65,72,75,73,77,80,82,97,87,94] @=> int chords[];
+                [61,68,65,72] @=> int chords[];
                 return chords;
             } 
             if(note == "D" || note == "d" || note == "re" || note == "Re")
             {
-                [62,69,66,73,76,74,78,81,83,98,88,95] @=> int chords[];
+                [62,69,66,73] @=> int chords[];
                 return chords;
             } 
             if(note == "D#" || note == "d#" || note == "re#" || note == "Re#" || note == "Eb" || note == "eb" || note == "mib" || note == "Mib")
             {
-                [63,70,67,62,75,86,72,79,86,86,89,94] @=> int chords[];
+                [63,70,67,62] @=> int chords[];
                 return chords;
             } 
             if(note == "E" || note == "e" || note == "mi" || note == "Mi")
             {
-                [64,71,68,63,76,87,73,80,88,87,90,95] @=> int chords[];
+                [64,71,68,63] @=> int chords[];
                 return chords;
             } 
             if(note == "F" || note == "f" || note == "fa" || note == "Fa")
             {
-                [65,72,69,64,77,88,74,81,89,88,91,96] @=> int chords[];
+                [65,72,69,64] @=> int chords[];
                 return chords;
             } 
             if(note == "F#" || note == "f#" || note == "fa#" || note == "Fa#" || note == "Gb" || note == "gb" || note == "solb" || note == "Solb")
             {
-                [66,73,70,65,78,89,75,82,90,89,92,97] @=> int chords[];
+                [66,73,70,65] @=> int chords[];
                 return chords;
             } 
             if(note == "G" || note == "g" || note == "sol" || note == "Sol")
             {
-                [67,71,62,66,86,79,74,83,78,81,76,95] @=> int chords[];
+                [67,71,62,66] @=> int chords[];
                 return chords;
             } 
             if(note == "G#" || note == "g#" || note == "sol#" || note == "Sol#" || note == "Ab" || note == "ab" || note == "lab" || note == "Lab")
             {
-                [68,72,63,67,87,80,75,84,79,82,77,96] @=> int chords[];
+                [68,72,63,67] @=> int chords[];
                 return chords;
             } 
             if(note == "Am" || note == "am" || note == "lam" || note == "Lam")
             {
-                [60,69,64,67,81,72,74,93,83,79,84,88] @=> int chords[];
+                [60,69,64,67] @=> int chords[];
                 return chords;
             }  
             if(note == "A#m" || note == "a#m" || note == "la#m" || note == "La#m" || note == "Bbm" || note == "bbm" || note == "sibm" || note == "Sibm")
             {
-                [61,70,65,68,82,73,75,94,84,80,85,89] @=> int chords[];
+                [61,70,65,68] @=> int chords[];
                 return chords;
             }   
             if(note == "Bm" || note == "bm" || note == "sim" || note == "Sim")
             {
-                [62,71,66,69,83,74,76,95,85,81,86,90] @=> int chords[];
+                [62,71,66,69] @=> int chords[];
                 return chords;
             }   
             if(note == "Cm" || note == "cm" || note == "dom" || note == "Dom")
             {
-                [60,67,63,70,74,72,76,79,80,96,86,94] @=> int chords[];
+                [60,67,63,70] @=> int chords[];
                 return chords;
             } 
             if(note == "C#m" || note == "c#m" || note == "do#m" || note == "Do#m" || note == "Dbm" || note == "dbm" || note == "rebm" || note == "Rebm")
             {
-                [61,68,64,71,75,73,77,80,81,97,87,95] @=> int chords[];
+                [61,68,64,71] @=> int chords[];
                 return chords;
             } 
             if(note == "Dm" || note == "dm" || note == "rem" || note == "Rem")
             {
-                [62,69,65,72,76,74,77,81,82,98,89,93] @=> int chords[];
+                [62,69,65,72] @=> int chords[];
                 return chords;
             } 
             if(note == "D#m" || note == "d#m" || note == "re#m" || note == "Re#m" || note == "Ebm" || note == "ebm" || note == "mibm" || note == "Mibm")
             {
-                [64,70,66,73,77,75,78,82,83,99,90,94] @=> int chords[];
+                [64,70,66,73] @=> int chords[];
                 return chords;
             } 
             if(note == "Em" || note == "em" || note == "mim" || note == "Mim")
             {
-                [64,71,67,62,76,86,72,79,88,86,90,95] @=> int chords[];
+                [64,71,67,62] @=> int chords[];
                 return chords;
             } 
             if(note == "Fm" || note == "fm" || note == "fam" || note == "Fam")
             {
-                [65,72,68,63,77,87,73,80,89,87,91,96] @=> int chords[];
+                [65,72,68,63] @=> int chords[];
                 return chords;
             } 
             if(note == "F#m" || note == "f#m" || note == "fa#m" || note == "Fa#m" || note == "Gbm" || note == "gbm" || note == "solbm" || note == "Solbm")
             {
-                [66,73,69,64,78,88,74,81,90,88,92,97] @=> int chords[];
+                [66,73,69,64] @=> int chords[];
                 return chords;
             } 
             if(note == "Gm" || note == "gm" || note == "solm" || note == "Solm")
             {
-                [67,70,62,65,86,79,74,82,77,81,75,94] @=> int chords[];
+                [67,70,62,65] @=> int chords[];
                 return chords;
             } 
             if(note == "G#m" || note == "g#m" || note == "sol#m" || note == "Sol#m" || note == "Abm" || note == "abm" || note == "labm" || note == "Labm")
             {
-                [68,71,63,66,87,80,75,83,78,82,76,95] @=> int chords[];
+                [68,71,63,66] @=> int chords[];
                 return chords;
             } 
         }
